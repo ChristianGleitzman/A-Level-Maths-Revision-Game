@@ -7,8 +7,8 @@ from PIL import Image, ImageQt
 class TravClient:
     def __init__(self):
         self.__client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        #Server IP address
-        self.__SERVER = "192.168.0.28"
+        #Server IP address - removed for GitHub
+        self.__SERVER = "-------"
         self.__PORT = 5050
         #The header is the number of bits allocated to each message
         self.__HEADER = 16384
