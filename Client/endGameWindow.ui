@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Game Finished</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	background-color: rgb(71, 137, 102);
+}
+
+#lblWindowTitle {
+	background-color: rgb(227, 198, 173);
+	border-width: 4px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: rgb(182, 123, 101);
+	min-width: 10em;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+QLineEdit {
+	background-color: rgb(255,255,255);
+	border-radius: 5px
+}
+
+QPushButton {
+	background-color: rgb(227, 198, 173);
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 10px;
+	border-color: rgb(182, 123, 101);
+	min-width: 10em;
+	padding: 6px;
+}
+
+QPushButton:Hover {
+	background-color: rgb(115, 167, 136);
+	border-color: rgb(19, 94, 70);
+}
+
+QPushButton:pressed {
+	background-color: rgb(125, 179, 147);
+	border-color: rgb(19, 94, 70);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
+    <item>
+     <widget class="QLabel" name="lblWindowTitle">
+      <property name="font">
+       <font>
+        <family>MS UI Gothic</family>
+        <pointsize>42</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>You Won!/Game Over</string>
+      </property>
+      <property name="scaledContents">
+       <bool>false</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="indent">
+       <number>-3</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblSub">
+      <property name="font">
+       <font>
+        <family>MS UI Gothic</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblOverview">
+      <property name="font">
+       <font>
+        <family>MS UI Gothic</family>
+        <pointsize>20</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+        <underline>false</underline>
+        <strikeout>false</strikeout>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="replayButton">
+      <property name="font">
+       <font>
+        <family>MS UI Gothic</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Replay</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="homeButton">
+      <property name="font">
+       <font>
+        <family>MS UI Gothic</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Back to Home Menu</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
