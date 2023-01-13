@@ -702,8 +702,8 @@ def sendMail(subject, body, emailRecipient):
         server.ehlo()
         server.starttls()
         server.ehlo()
-        #This gmail account was set up for this program to use and is logged into. The password has been removed for documentation
-        server.login("pyramidtraversal@gmail.com", "Arsenal34!?")
+        #This gmail account was set up for this program to use and is logged into. The password has been removed for GitHub
+        server.login("pyramidtraversal@gmail.com", "--------")
         #A message containing the subject and body is formatted
         msg = f"Subject: {subject}\n\n{body}"
         #This sends an email to a recipient with the entered subject and body
