@@ -12,7 +12,7 @@ This project is my A-level computer science coursework, in which I developed an 
 - Pickle
 - SQLite
 
-##Screenshots
+## Screenshots
 
 ![Main menu](https://github.com/ChristianGleitzman/A-Level-Maths-Revision-Game/blob/main/menu.PNG)
 ![Game Engine](https://github.com/ChristianGleitzman/A-Level-Maths-Revision-Game/blob/main/apex.png)
